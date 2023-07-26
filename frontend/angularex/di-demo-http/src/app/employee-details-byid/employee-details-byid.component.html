@@ -1,0 +1,24 @@
+<h2>employee details by id </h2>
+
+
+<form [formGroup]="myform" (ngSubmit)="findEmployeeById()">
+
+    <div>
+        <label>id</label>
+        <input name="id" formControlName="empId" type="number">
+    </div>
+
+    <button>Find Employee</button>
+
+</form>
+
+<div *ngIf="employee">
+    <h3>
+{{employee.id}}, {{employee.name}} {{employee.age}}
+</h3>
+</div>
+
+<div *ngIf="errMsg">
+    {{errMsg}}
+    
+    </div>

@@ -1,0 +1,16 @@
+/home/vineet/work/workspace/wipro_javafs_22_evening/jee/spring/boot/mongo/productms/src/main/java/com/trainingapps/productms/controller/ProductRestApi.java
+/home/vineet/work/workspace/wipro_javafs_22_evening/jee/spring/boot/mongo/productms/src/main/java/com/trainingapps/productms/util/ProductUtil.java
+/home/vineet/work/workspace/wipro_javafs_22_evening/jee/spring/boot/mongo/productms/src/main/java/com/trainingapps/productms/exceptions/InvalidProductNameException.java
+/home/vineet/work/workspace/wipro_javafs_22_evening/jee/spring/boot/mongo/productms/src/main/java/com/trainingapps/productms/exceptions/InvalidPriceException.java
+/home/vineet/work/workspace/wipro_javafs_22_evening/jee/spring/boot/mongo/productms/src/main/java/com/trainingapps/productms/CustomMongoConfig.java
+/home/vineet/work/workspace/wipro_javafs_22_evening/jee/spring/boot/mongo/productms/src/main/java/com/trainingapps/productms/service/ProductServiceImpl.java
+/home/vineet/work/workspace/wipro_javafs_22_evening/jee/spring/boot/mongo/productms/src/main/java/com/trainingapps/productms/dto/ProductDetails.java
+/home/vineet/work/workspace/wipro_javafs_22_evening/jee/spring/boot/mongo/productms/src/main/java/com/trainingapps/productms/exceptions/InvalidProductIdException.java
+/home/vineet/work/workspace/wipro_javafs_22_evening/jee/spring/boot/mongo/productms/src/main/java/com/trainingapps/productms/dao/IProductRepository.java
+/home/vineet/work/workspace/wipro_javafs_22_evening/jee/spring/boot/mongo/productms/src/main/java/com/trainingapps/productms/dto/AddProductRequest.java
+/home/vineet/work/workspace/wipro_javafs_22_evening/jee/spring/boot/mongo/productms/src/main/java/com/trainingapps/productms/dto/ChangeProductRequest.java
+/home/vineet/work/workspace/wipro_javafs_22_evening/jee/spring/boot/mongo/productms/src/main/java/com/trainingapps/productms/controller/CentralizedExceptionHandler.java
+/home/vineet/work/workspace/wipro_javafs_22_evening/jee/spring/boot/mongo/productms/src/main/java/com/trainingapps/productms/service/IProductService.java
+/home/vineet/work/workspace/wipro_javafs_22_evening/jee/spring/boot/mongo/productms/src/main/java/com/trainingapps/productms/DemoApplication.java
+/home/vineet/work/workspace/wipro_javafs_22_evening/jee/spring/boot/mongo/productms/src/main/java/com/trainingapps/productms/entity/Product.java
+/home/vineet/work/workspace/wipro_javafs_22_evening/jee/spring/boot/mongo/productms/src/main/java/com/trainingapps/productms/exceptions/ProductNotFoundException.java

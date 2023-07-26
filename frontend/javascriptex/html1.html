@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>html event Demo</title>
+
+<style type="text/css">
+
+
+body{
+  margin:50xpx;
+}
+
+#container{
+  background-color:green;
+  width:200px;
+  height: 100px;
+  margin-top: 50px;
+}
+
+</style>
+
+    <script type="text/javascript">
+
+    function display(id){
+      console.log("inside display input id="+id);
+      var container= document.getElementById(id);
+      var msg="<h2>Welcome to javascript </h2>"
+      container.innerHTML=msg;
+
+    }
+
+    </script>
+
+</head>
+
+<body>
+
+<h1>Javascript Demo</h1>
+
+<button onclick="display('container')"> Display</button>
+
+<div id="container" >
+
+</div>
+
+</body>
+
+
+</html>

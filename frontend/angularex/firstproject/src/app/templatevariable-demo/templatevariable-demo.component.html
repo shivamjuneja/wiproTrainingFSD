@@ -1,0 +1,10 @@
+
+
+<h2>Local variable in template</h2>
+
+<input name="description"  #desc>
+
+<br>
+<button (click)="changeDescription(desc.value)">Change description</button>
+<br>
+{{description}}

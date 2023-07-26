@@ -1,0 +1,30 @@
+<h2>add employee</h2>
+
+<form [formGroup]="myform" (ngSubmit)="addEmployee()">
+
+
+    <div>
+
+        <label>Name</label>
+
+        <input name="empName" formControlName="empName">
+    </div>
+
+
+    <div>
+
+        <label>Age</label>
+
+        <input name="empAge" formControlName="empAge">
+    </div>
+
+
+
+    <button>Add Employee</button>
+
+</form>
+
+<div *ngIf="isSent">
+    <h3>Employee added</h3>
+    
+</div>

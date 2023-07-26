@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>html event Demo</title>
+
+    <style type="text/css">
+        body {
+            margin: 50xpx;
+        }
+
+        #container {
+            background-color: green;
+            width: 300px;
+            height: 100px;
+            margin-top: 50px;
+        }
+    </style>
+
+    <script type="text/javascript">
+
+        function display(containerId, fieldId) {
+            console.log("inside display");
+            let container = document.getElementById(containerId);
+            let field = document.getElementById(fieldId);
+            let inputValue = field.value;
+            console.log("inputvalue=" + inputValue);
+            let msg = `<h2>hi ${inputValue} </h2>`;
+            container.innerHTML = msg;
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <h1>Javascript Demo</h1>
+
+
+    <form>
+
+        <label>Username</label>
+        <input name="username" id="username" onblur="display('container', 'username')">
+
+    </form>
+
+
+    <div id="container">
+
+    </div>
+
+</body>
+
+
+</html>

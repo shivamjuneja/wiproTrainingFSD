@@ -1,0 +1,11 @@
+<h2>Event Binding </h2>
+<button (click)="increment()">Increment Counter</button>
+<br>
+Counter is {{counter}}
+
+<br>
+
+<label>Enter Username</label>
+<input (change)="changeUsername($event?.target?.value)">
+<br>
+Username is {{username}}

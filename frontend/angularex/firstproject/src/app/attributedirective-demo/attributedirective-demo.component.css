@@ -1,0 +1,14 @@
+.even{
+padding:10%;
+height:100px;
+background-color:green;
+color:white ;
+}
+
+.odd{
+padding:10%;
+height:100px;
+background-color:red;
+color:white ;
+
+}

@@ -1,0 +1,12 @@
+<h2>employee-details by id in route</h2>
+
+<div *ngIf="employee">
+    <h3>
+        {{employee.id}}, {{employee.name}} {{employee.age}}
+    </h3>
+</div>
+
+<div *ngIf="errMsg">
+    {{errMsg}}
+
+</div>

@@ -1,0 +1,47 @@
+{
+  "trainees": [
+    {
+      "id": "54dj",
+      "name": "sachin tendulkar",
+      "age": 45
+    },
+    {
+      "id": "njh7",
+      "name": "virat kohli",
+      "age": 25
+    },
+    {
+      "name": "govind",
+      "age": 21,
+      "id": "33GnNL6"
+    },
+    {
+      "name": "mohit",
+      "age": "21",
+      "id": "Cyl1N5t"
+    },
+    {
+      "name": "sourav",
+      "age": "21",
+      "id": "cfBPsXf"
+    },
+    {
+      "id": "0_4RWaU"
+    },
+    {
+      "name": "sayantan",
+      "age": "22",
+      "id": "PwJNpjw"
+    },
+    {
+      "name": "arghya",
+      "age": "21",
+      "id": "JOKnSYI"
+    },
+    {
+      "name": "rohit",
+      "age": "22",
+      "id": "wfhHlGj"
+    }
+  ]
+}

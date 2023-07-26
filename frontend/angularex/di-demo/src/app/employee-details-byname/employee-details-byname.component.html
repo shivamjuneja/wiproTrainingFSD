@@ -1,0 +1,16 @@
+<h2>Find employee by name</h2>
+
+<form [formGroup]="myform"  (ngSubmit)="fetchEmployee()">
+
+<label>Name</label>
+
+<input name="empName" formControlName="empName">
+
+<button>Find Employee</button>
+
+</form>
+
+<div *ngIf="employee">
+    <h3>Employee Found</h3>
+    {{employee.name}}, {{employee.age}}
+</div>

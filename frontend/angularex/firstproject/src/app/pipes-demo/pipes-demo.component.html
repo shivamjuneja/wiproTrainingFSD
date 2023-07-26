@@ -1,0 +1,32 @@
+<h2>pipes-demo</h2>
+
+US Currency {{'100.78'|currency}}
+
+<br>
+Indian currency {{'100.78'|currency:'INR'}}
+
+<br>
+Lowercase pipe
+<br>
+Hello lowercased {{'HELLO'|lowercase}}
+
+<br>
+Hello uppercased {{'HEllo'|uppercase}}
+
+<br>
+Date pipe
+
+{{dateValue|date:'dd-MM-yyyy mm:ss'}}
+
+<br>
+
+length of hello {{'hello' | length }}
+
+
+<br>
+Smallest number in array {{[3,6,1,9,2] | smallest  }}
+
+<br>
+5 exists in array {{[10,5,7,8] |exists:5 }}
+<br>
+hi exists in array {{['hello','hi','good','bad']| exists:'hi' }}
